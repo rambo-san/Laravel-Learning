@@ -10,4 +10,5 @@ class HomeController extends Controller
         $name = $request->input('name');
         return view('home',['name'=>$name]);
     }
+    
 }
